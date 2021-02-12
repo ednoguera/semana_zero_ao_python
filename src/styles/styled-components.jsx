@@ -140,6 +140,9 @@ const SubTitleContainer = styled.div`
 
 const ThumbHeader = styled.figure`
     padding-top: 2.5%;
+    img {
+        height: 32vmin;
+    }
 `
 
 
@@ -449,10 +452,9 @@ const Input = styled.input`
 const Button = styled.button`
     height: 64px;
     width: 410px;
-    background-color: #A337CB;
     outline: none;
     border: none;
-    background-color: #A337CB;
+    background-color: #fed150;
     border-radius: 10px;
 
     cursor: pointer;
